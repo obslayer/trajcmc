@@ -1,0 +1,6 @@
+for name in *.jpg
+do
+    num=$(echo "$name" | cut -d . -f 1)
+	newname=$(expr $num / 20)
+    mv "$name" "$newname"
+done
