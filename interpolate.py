@@ -1,7 +1,6 @@
-import os,scipy,sys
+import os
 import numpy as np
 from os.path import join
-from multiprocessing import Pool
 
 
 def takeSnapshot(inputFolder, outputFolder):

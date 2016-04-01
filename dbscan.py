@@ -1,10 +1,7 @@
 import numpy as np
-import sys, os
+import os
 
 from sklearn.cluster import DBSCAN
-from sklearn import metrics
-from sklearn.datasets.samples_generator import make_blobs
-from sklearn.preprocessing import StandardScaler
 from os.path import join
 
 

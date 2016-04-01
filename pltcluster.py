@@ -2,9 +2,6 @@ import numpy as np
 import sys, os
 from scipy.misc import imread
 from sklearn.cluster import DBSCAN
-from sklearn import metrics
-from sklearn.datasets.samples_generator import make_blobs
-from sklearn.preprocessing import StandardScaler
 
 argvs = sys.argv
 frame = argvs[1]

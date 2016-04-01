@@ -1,6 +1,5 @@
 import errno, sys, os, shutil
 import dbscan, interpolate, showLinePattern, intersect
-from multiprocessing import Pool
 from os.path import join
 
 def mkdirSafe(path):

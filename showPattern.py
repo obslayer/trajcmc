@@ -1,5 +1,4 @@
 import sys, os
-import matplotlib.patches as patches
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.misc import imread

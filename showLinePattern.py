@@ -1,8 +1,6 @@
-import sys, os
 import numpy as np
 import matplotlib.pyplot as plt
 import pathos.multiprocessing as mp
-from multiprocessing import Pool
 from scipy.misc import imread
 from os.path import join
 

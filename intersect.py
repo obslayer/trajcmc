@@ -1,8 +1,6 @@
-import sys, os
+import os
 from datetime import datetime, timedelta
 from os.path import join
-from hashlib import sha1
-from time import time
 
 class Intersect:
     def __init__(self, inputFolder, outputFolder, frameLength, candidateSizeThreshold = 2, candidateDurationThreshold = 3): # candidateDurationThreshold unit: frame
