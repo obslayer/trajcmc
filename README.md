@@ -6,7 +6,7 @@ Make 3 folders to make the scripts work.
 
 
 
-./Data/ should be like ./Data/*/*/csvfiles, and the csvfiles should be ',' splited
+./Data/ should be like ./Data/\*/\*/csvfiles, and the csvfiles should be ',' splited
 
 ./output/ will receive the rendered images
 
