@@ -11,3 +11,7 @@ Make 3 folders to make the scripts work.
 ./output/ will receive the rendered images
 
 ./frameImg/ should be filled with background images named from 0 - anynum. corresponds to the frame number.
+
+
+# dependencies
+scipy, numpy, sklearn-kit, pathos, matplotlib
